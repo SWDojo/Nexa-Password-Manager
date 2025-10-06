@@ -1,0 +1,40 @@
+Nexa Password Manager
+
+Nexa is a secure, command-line–based password manager designed to safely store, retrieve, and manage your credentials using encryption.
+----------------------------------------------------------------------------------------------------------------------------
+
+🚀 Getting Started
+Follow these steps to install and run Nexa:
+
+1. Extract the Nexa Vault folder.
+Extract or move your Nexa Vault folder from the NEXAPWM.zip file to your Program Files directory:
+C:\Program Files\Nexa Vault
+
+2. Create a Desktop Shortcut
+Inside the dist folder:
+Right-click Nexa.exe
+Choose Send to → Desktop (create shortcut)
+
+
+🗝️ Vault & Master Password Location
+After running the program for the first time, Nexa automatically creates its secure storage files in:
+
+%LOCALAPPDATA%\Nexa
+
+
+Here you’ll find:
+
+Your vault database
+Your master password hash
+
+Feel free to explore the files if you’re curious — they are encrypted for your security.
+
+⚙️ Notes
+Make sure you have permission to write to the Program Files directory.
+Do not delete or move the %LOCALAPPDATA%\Nexa folder; it contains your encrypted credentials.
+Keep your master password safe — it’s the only way to access your vault.
+
+💬 Feedback
+If you encounter any issues, notice something that could be improved, or have ideas for new features, please let me know so I can make adjustments and updates.
+
+Enjoy using Nexa — your encrypted CLI password manager.
